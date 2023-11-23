@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Raleway, Great_Vibes } from 'next/font/google'
 import './globals.css'
-import Navbar from '@/components/Navbar'
+import Navbar from '@/components/Navbar/Navbar'
 import { ThemeProvider } from '@/providers/theme-provider'
 
 const raleway = Raleway({ subsets: ['latin'] })
