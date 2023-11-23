@@ -35,7 +35,7 @@ const technologies = [
     {
         src: '/nextjs.png',
         title: 'Next JS',
-        style: 'shadow-white'
+        style: 'shadow-black dark:shadow-white'
     },
     {
         src: '/github.png',
