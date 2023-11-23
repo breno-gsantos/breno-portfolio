@@ -10,7 +10,7 @@ export default function About() {
     return (
         <section id="about" className="w-full h-screen">
             {aboutData.map(({title, textOne, textTwo}) => (
-                <div key={title} className="max-w-screen container mx-auto flex flex-col justify-center w-full h-full">
+                <div key={title} className="max-w-screen-lg container mx-auto flex flex-col justify-center w-full h-full">
                     <div className="pb-8">
                        <h1 className="text-4xl font-bold inline border-b-4 border-black dark:border-white/75">{title}</h1> 
                     </div>
