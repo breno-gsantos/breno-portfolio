@@ -14,7 +14,7 @@ export default function Hero() {
                             <p className='py-4 dark:font-light max-w-md'>{text}</p>
                         </div>
                     ))}
-                    <Button variant='premium' size='lg' className='gap-x-2'>
+                    <Button variant='premium' size='lg' className='gap-x-2 text-white'>
                         Portfolio <MdOutlineKeyboardArrowRight size={25} />
                     </Button>
                 </div>
