@@ -8,7 +8,7 @@ export function MobileNavbar() {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button variant="ghost"><FaBars className='w-7 h-7' /></Button>
+        <Button variant="ghost" className="text-white dark:text-black"><FaBars className='w-7 h-7' /></Button>
       </SheetTrigger>
       <SheetContent className="flex flex-col h-full justify-center">
         <SheetHeader>

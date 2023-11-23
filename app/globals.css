@@ -75,3 +75,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+body::-webkit-scrollbar {
+  width: 0.3em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+
+/* Para navegadores baseados em Firefox */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: darkgrey;
+}
